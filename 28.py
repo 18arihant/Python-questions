@@ -18,11 +18,15 @@ class  vector:
             dot+=(self.data[i]*obj.data[i])
         return dot
     
+    def __len__(self,):
+        return len(self.data)
+    
 v1=vector([1,2,3])
 v2=vector([2,3,4])
 v3=v1+v2
 v4=v1*v2
 print(v3.data)  
 print(v4)
+print(len(v1))
  
         
