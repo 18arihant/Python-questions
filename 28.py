@@ -9,7 +9,6 @@ class  vector:
         mylist=[]
         for i in range(len(obj.data)):
             mylist.append(self.data[i]+obj.data[i])
-
         return(vector(mylist))
     
     def __mul__(self,obj):
