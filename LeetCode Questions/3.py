@@ -12,8 +12,6 @@ class Sol:
         for k in range(0,n):
             c.append(a[k])
             c.append(b[k])
-
-
         return c
 
 b=Sol()
