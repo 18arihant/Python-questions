@@ -5,9 +5,9 @@ class Solution:
         a=[]
         for i in range(len(candies)):
             if candies[i]+extraCandies>=max(candies):
-                a.append("true")
+                a.append(True)
             else:
-                a.append("false")
+                a.append(False)
         return a
     
 b=Solution()
