@@ -1,4 +1,4 @@
-# 2652 Sum Multiples
+#2652 Sum Multiples
 
 class Solution:
     def multiples(self,n):
@@ -10,4 +10,3 @@ class Solution:
     
 a=Solution()
 print(a.multiples(10))
-
