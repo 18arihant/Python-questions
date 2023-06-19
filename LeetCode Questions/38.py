@@ -1,13 +1,17 @@
 
 class find:
-    def reverse(self, x):
-        a=str(x)
-        b=list(a)
-        b.reverse()
-        d="".join(b)
-        print(a)
-        print(b)
-        return int(d)
+    def consistent(self,allowed,words):
+        count =0
+        for i in words:
+            for j in i:
+                if j not in allowed:
+                    count+=1
+                    break
+        return len(words)-count
+
+
+        
     
 a=find()
-print(a.reverse(243))
+print(a.consistent("ab",["ad","bd","aaab","baa","badab"]))
+
