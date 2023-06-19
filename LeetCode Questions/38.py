@@ -7,11 +7,9 @@ class find:
                 if j not in allowed:
                     count+=1
                     break
-        return len(words)-count
-
-
-        
+        return len(words)-count    
     
 a=find()
 print(a.consistent("ab",["ad","bd","aaab","baa","badab"]))
+
 
