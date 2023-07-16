@@ -6,3 +6,6 @@ class Solution():
             return True
         else:
             return False
+        
+a=Solution()
+print(a.checkIfPangram("thequickbrownfoxjumpsoverthelazydog"))
