@@ -1,1 +1,1 @@
-# 2544. Alternating Digit Sum
+# 2544. Alternating Digit S
