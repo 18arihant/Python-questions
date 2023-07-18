@@ -14,3 +14,5 @@ class Solution():
                 l.append(str(i))
         return l
     
+a=Solution()
+print(a.fizzBuzz(3))
