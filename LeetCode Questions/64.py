@@ -8,4 +8,5 @@ class Solution():
                 c=c+1
         return c
 
-
+a=Solution()
+print(a.countPoints("B0B6G0R6R0R6G9"))
