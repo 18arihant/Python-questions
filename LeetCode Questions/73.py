@@ -10,3 +10,4 @@ class Solution():
 
 a=Solution()
 print(a.countDistinctIntegers([1,13,10,12,31]))
+
