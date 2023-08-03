@@ -10,4 +10,4 @@ class Solution():
         return c
 
 a=Solution()
-print(a.similarPairs(["aba","aabb","abcd","bac","aabc"]))
+print(a.similarPairs(["aba","aabb","abcd","bac","aabc"])) 
